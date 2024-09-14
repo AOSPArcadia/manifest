@@ -34,7 +34,7 @@
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
-  <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" >
+  <project path="device/qcom/common" name="AOSPArcadia/android_device_qcom_common" remote="github-ssh" >
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
   <remove-project name="device/qcom/qssi" />
@@ -210,7 +210,7 @@
   <project path="vendor/aospa/translations" name="AOSPA/android_vendor_aospa_translations" remote="aospa" />
   <project path="vendor/google/gms" name="android_vendor_google_gms" remote="blobs-gitlab" clone-depth="1" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" clone-depth="1" />
-  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
+  <project path="vendor/qcom/common" name="aospa-xiaomi14/proprietary_vendor_qcom_common" remote="github" revision="uvite" />
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" />
 
   <!-- Vendor (QCOM QSSI) -->
