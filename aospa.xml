@@ -211,7 +211,7 @@
   <project path="vendor/google/gms" name="android_vendor_google_gms" remote="blobs-gitlab" clone-depth="1" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" clone-depth="1" />
   <project path="vendor/qcom/common" name="aospa-xiaomi14/proprietary_vendor_qcom_common" remote="github" revision="uvite" />
-  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" />
+  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" clone-depth="1" />
 
   <!-- Vendor (QCOM QSSI) -->
   <remove-project name="platform/vendor/codeaurora/telephony" />
