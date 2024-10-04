@@ -39,10 +39,6 @@
   </project>
   <remove-project name="device/qcom/qssi" />
   <project path="device/qcom/qssi" name="AOSPA/android_device_qcom_qssi" remote="aospa" />
-  <remove-project name="device/qcom/sepolicy_vndr" />
-  <project path="device/qcom/sepolicy_vndr" name="AOSPArcadia/android_device_qcom_sepolicy_vndr" remote="github-ssh" />
-  <remove-project name="device/qcom/vendor-common" />
-  <project path="device/qcom/vendor-common" name="AOSPArcadia/android_device_qcom_vendor-common" remote="github-ssh" />
   <project path="device/qcom/kernelscripts" name="AOSPA/android_kernel_build" remote="aospa" >
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
   </project>
@@ -244,8 +240,6 @@
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
   <project path="vendor/qcom/opensource/vibrator" name="AOSPArcadia/android_vendor_qcom-opensource_vibrator" remote="github-ssh" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
-  <project path="vendor/qcom/opensource/usb" name="AOSPArcadia/android_vendor_qcom-opensource_usb" remote="github-ssh" />
-  <remove-project name="platform/hardware/qcom/thermal" />
-  <project path="vendor/qcom/opensource/thermal-hal" name="AOSPArcadia/android_hardware_qcom_thermal" remote="github-ssh" />
+  <project path="vendor/qcom/opensource/usb" name="AOSPArcadia/android_vendor_qcom-opensource_usb" remote="github-ssh" revision="uvite-rebase" />
 
 </manifest>
